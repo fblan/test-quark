@@ -1,7 +1,7 @@
 # this project is trying to run sveltekit as anwebui application.
 ## the web application is working in production mode:
 ```shell script
-./mvnw compile quarkus:dev
+./mvnw compile package
 ```
 then
 ```shell script
