@@ -26,7 +26,9 @@ Error: Not found: //
 at resolve (C:/DEV/snipets/sveltekit-quark/230621-svk3/src/main/webui/node_modules/@sveltejs/kit/src/runtime/server/respond.js:430:13)
 ```
 and I am redirected to default quarkus index.html
-### ### with dev server true and index-page default:
+
+
+### with dev server true and index-page default:
 quarkus.quinoa.dev-server=true
 %dev.quarkus.quinoa.index-page=/
 
