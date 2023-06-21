@@ -17,9 +17,12 @@ This is GOOD!
 *BUT* it is not working in dev mode:
 
 ### with dev server true and index-page /:
+
+
+```
 quarkus.quinoa.dev-server=true
 %dev.quarkus.quinoa.index-page=/
-
+```
 the error is :
 ```
 Error: Not found: //
