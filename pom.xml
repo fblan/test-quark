@@ -13,6 +13,10 @@
     <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
     <quarkus.platform.group-id>io.quarkus.platform</quarkus.platform.group-id>
     <quarkus.platform.version>3.1.2.Final</quarkus.platform.version>
+    <quinoa-version-999>999-SNAPSHOT</quinoa-version-999>
+    <quinoa-version-205>2.0.5</quinoa-version-205>
+    <quinoa-version>${quinoa-version-999}</quinoa-version>
+
     <skipITs>true</skipITs>
     <surefire-plugin.version>3.0.0</surefire-plugin.version>
   </properties>
@@ -36,11 +40,17 @@
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-resteasy-reactive</artifactId>
     </dependency>
-    <dependency>
+    <!-- dependency>
       <groupId>io.quarkiverse.quinoa</groupId>
       <artifactId>quarkus-quinoa</artifactId>
-      <version>2.0.5</version>
-    </dependency>
+      <version>${quinoa-version}</version>
+    </dependency -->
+    <!-- dependency>
+      <groupId>io.quarkiverse.quinoa</groupId>
+      <artifactId>quarkus-quinoa-deployment</artifactId>
+      <version>${quinoa-version}</version>
+    </dependency -->
+
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-arc</artifactId>

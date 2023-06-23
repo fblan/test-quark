@@ -14,6 +14,6 @@ public class GreetingResource {
     @Path("/{world}")
     public String hello(@PathParam("world")String world) {
 
-        return "Hello "+world+"from RESTEasy Reactive";
+        return "Hello "+world+" from RESTEasy Reactive";
     }
 }
