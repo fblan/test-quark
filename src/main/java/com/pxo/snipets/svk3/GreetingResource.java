@@ -6,6 +6,8 @@ import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
+import java.net.URISyntaxException;
+
 @Path("/rest/hello")
 public class GreetingResource {
 
@@ -13,7 +15,7 @@ public class GreetingResource {
     @Produces(MediaType.TEXT_PLAIN)
     @Path("/{world}")
     public String hello(@PathParam("world")String world) {
-
-        return "Hello "+world+"from RESTEasy Reactive";
+        URISyntaxException toto;
+        return "Hello "+world+" from Fred!!!:)";
     }
 }
